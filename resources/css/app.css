@@ -62,7 +62,7 @@ html
 body
 {
     font-family: Figtree, sans-serif;
-    background-color: #0d1116;
+    background-color: #181d27;
     color: #b9c3d0;
 }
 
@@ -120,6 +120,8 @@ body
 .landing__footer
 {
     margin-top: 4rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .title
@@ -138,16 +140,29 @@ p
 
 .button
 {
-    background-color: black;
     padding: .75rem 2rem;
     border-radius: 2rem;
-    color: #b9c3d0;
+    color: black;
+    background-color: #4aff4e;
     transition: background-color .2s, color .2s;
+}
+
+.button.button--secondary
+{
+    color: #b9c3d0;
+    background-color: black;
 }
 
 .button:hover
 {
+    color: #4aff4e;
+    background-color: black;
+    transition: background-color .5s, color .5s;
+}
+
+.button.button--secondary:hover
+{
     color: black;
-    background-color: #4AFF4E;
-    transition: background-color 2s, color .5s;
+    background-color: #4aff4e;
+    transition: background-color .5s, color .5s;
 }

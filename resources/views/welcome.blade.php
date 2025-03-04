@@ -38,7 +38,8 @@
                 </p>
 
                 <div class="landing__footer">
-                    <a href="https://github.com/elos-lang/" target="_blank" class="button">Github</a>
+                    <a href="docs" target="_blank" class="button">Documentation</a>
+                    <a href="https://github.com/elos-lang/" target="_blank" class="button button--secondary">Github</a>
                 </div>
             </div>
         </div>
